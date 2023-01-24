@@ -27,7 +27,7 @@ function saludar() {
   } else {
     document.getElementById("resultadoSaludo").innerText = nombre;
     //resultadoSaludo.setAttribute("title", nombre);
-    resultadoSaludo.value = nombre;
+    resultadoSaludo.value = "Hola, es un gusto saludarte" + nombre;
     console.log(resultadoSaludo);
   }
 }
