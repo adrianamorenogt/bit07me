@@ -109,3 +109,7 @@ h3 {
   align-items: center;
   cursor: pointer;
 }
+/* Image */
+#foto{
+  background: #000000 url(https://avatars.githubusercontent.com/u/111825505?v=4) center center/contain no-repeat content-box local;
+}
