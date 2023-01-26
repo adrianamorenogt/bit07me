@@ -1,8 +1,120 @@
 body {
-	font-family: 'sans-serif';
-  min-height: 100vh;
-  background: rgb(215, 179, 198);
-  background:rgb(241, 240, 241);   
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color:rgb(159, 159, 159)
+}
+
+#all {
+  /* width: 1000px; */
+/*   background: #d1df1a;
+  margin-left: 35%;
+	max-width: 54em;
+	padding: 8em 4em 4em 4em; */
+	width: calc(100% - 35%);
+}
+
+#content {
+  background: #ffffff83;
+  float: right;
+	width: 73.5%;
+  height: 100%;
+  right: -0.5%;
+	text-align: left;
+  position: relative;
+  top: 0;
+}
+#leftcolumn {
+  /* background: #7e191956; */
+  background: rgb(215,215,215);
+  background: linear-gradient(90deg, rgba(215,215,215,0.7455357142857143) 65%, rgba(149,147,147,0.8379726890756303) 92%);
+  float: left;
+  width: 19.8%;
+  height: 100%;
+	left: -0.5%;
+	padding: 8em 4em;
+	position: fixed;
+	text-align: center;
+	top: 0;
+}
+#footer {
+  background: #ffffff;
+  clear: both;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  top: 0;
+  padding: 20px 0;
+  position: relative;
+  float: none;
+}
+/* Estilos de las letras H */
+h1 {
+  font-family: 'Arial Narrow';
+  color: #423e3e;
+  font-weight: 400;
+  line-height: 1em;
+  margin: 0 0 1em 0;
+  font-size: 2em;
+  line-height: 1.5em;
+}
+h2 {
+  font-family: 'Arial Narrow';
+  color: #7e1919;
+  font-weight: 400;
+  line-height: 1em;
+  margin: 0 0 1em 0;
+  font-size: 1.5em;
+  line-height: 1.5em;
+}
+#header {
+  font-family: 'Arial Narrow';
+  color: #7e1919;
+  font-weight: 400;
+  line-height: 1em;
+  margin: 0 0 1em 0;
+  font-size: 1.5em;
+  line-height: 1.5em;
+  text-align: center;
+}
+h3 {
+  font-family: 'Arial Narrow';
+  color: #423e3e;
+  font-weight: 400;
+  line-height: 1em;
+  margin: 0 0 1em 0;
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+h4 {
+  font-family: 'Arial Narrow';
+  color: #7e1919;
+  font-weight: 400;
+  line-height: 1em;
+  margin: 0 0 1em 0;
+}
+p {
+  font-family: 'Arial Narrow';
+  color: #423e3e;
+  font-weight: 400;
+  line-height: 1em;
+  margin: 0 0 1em 0;
+  font-size: 1.25em;
+  line-height: 1.5em;
+}
+
+/* Botón */
+button{
+  font-family: 'Arial Narrow';
+  font-weight: 0;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #7e1919;
+  padding: 10px 30px;
+  border: solid #00000044 2px;
+  box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+  border-radius: 50px;
+  transition : 1569ms;
+  transform: translateY(0);
   display: flex;
   /*Hor */
   justify-content: center;
