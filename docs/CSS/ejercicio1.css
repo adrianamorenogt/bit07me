@@ -2,13 +2,13 @@ body {
   background-image: radial-gradient( circle farthest-corner at 5.6% 54.5%,  rgb(85, 85, 85) 0%, rgb(166, 172, 174) 83.6% );
 } 
 h1{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Arial Narrow bold;
   color: #d6d6d6;
   font-size: 50px;
   margin: 15px 0;
 }
 h2{
-  font-family: cursive;
+  font-family: Arial Narrow;
   color: #ffffff;
   font-size: 30px;
   margin: 15px 0;
