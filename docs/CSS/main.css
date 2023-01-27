@@ -116,6 +116,10 @@ button{
   transition : 1569ms;
   transform: translateY(0);
   display: flex;
+  /*Hor */
+  justify-content: center;
+  /*Ver*/
+  align-items: center;
   flex-direction: row;
   align-items: center;
   cursor: pointer;
@@ -154,5 +158,5 @@ button{
   z-index: 10000;
   cursor: default;
   height: 3.5em;
-  line-height: 3.5em;
+  line-height: 3.5em;
 }
