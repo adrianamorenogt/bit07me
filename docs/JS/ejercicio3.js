@@ -17,13 +17,17 @@
  */
 
 function multiplosDeDos() {
-  const numero = parseInt(prompt("Ingresa un número"));
+  let numero = document.getElementById("Input1").value;
   let pares = "";
-  alert(" No escribiste ningún número");
+  if (numero === 0) {
+    alert("No escribiste un número válido");
+  }
   for (let i = 1; i <= numero; i++) {
     if (i % 2 === 0) {
       pares += i + ", ";
     }
   }
-  alert(`Los números pares desde 1 hasta ${numero}, son: ${pares}`);
+  document.getElementById(
+    "resultadoNumero"
+  ).innerText = `Los números pares desde 1 hasta ${numero}, son: ${pares}`;
 }
